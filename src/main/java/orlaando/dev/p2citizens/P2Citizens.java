@@ -20,7 +20,7 @@ import java.util.logging.Level;
 
 public class P2Citizens extends JavaPlugin implements Listener {
     private PlotAPI plotAPI = null;
-    private List<String> forbiddenCommands = Arrays.asList("/npc", "/citizens:npc", "/npc2");
+    private List<String> forbiddenCommands = Arrays.asList("/npc", "/citizens:npc", "/npc2", "/citizens:npc2");
 
     @Override
     public void onEnable() {
